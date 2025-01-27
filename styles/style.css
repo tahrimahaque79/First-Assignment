@@ -105,10 +105,71 @@
     font-weight: 900;
     font-style: italic;
   }
+  
   /* Shared Styles */
   .text-primary{
     color: #006A50;
 
+  }
+  .text-center{
+    text-align: center;
+  }
+  
+  .btn-blue{
+    background-color: #5490F5;
+    font-weight: 600px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+
+  }
+  .btn-green{
+    background-color: #09A15C;
+    font-weight: 600px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+
+  }
+  .btn-orange{
+    background-color: #FFC239;
+    font-weight: 600px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+
+  }
+  .btn-primary{
+    background-color: #006A50;
+    font-weight: 600px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+
+  }
+  .section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+  .subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+  
+  .section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
   }
   
 
@@ -118,6 +179,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 24px 160px;
 }
 .nav-title{
     font-weight: 600;
@@ -127,4 +189,59 @@ nav{
     font-weight: 400;
     font-size: 18px;
     margin: 50px 50px;
+}
+
+/* Banner Styles */
+.banner{
+    display: flex;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 160px;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.banner-content{
+    padding: 117px 59.99px;
+    text-decoration: none;
+
+}
+
+.banner-subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #B5B5B5
+
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+   
+}
+.banner-picture{
+    padding: 80px 59.99px;
+
+}
+/* main styles */
+main{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+main section{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* pillar section */
+
+.pillars-container{
+  display: flex;
+  gap: 24px;
+}
+.pillar{
+  padding: 24px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  fill: #FFFFFF;
+  border-radius: 16px;
 }
