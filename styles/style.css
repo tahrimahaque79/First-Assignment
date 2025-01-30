@@ -240,8 +240,57 @@ main section{
 }
 .pillar{
   padding: 24px;
-  border-radius: 5px;
+  
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   fill: #FFFFFF;
   border-radius: 16px;
+}
+
+/* vision style section */
+
+.vision-container{
+  display: flex;
+  gap: 24px;
+  
+}
+.technology-one{
+   box-shadow: 0px 4px 4px 0px ;
+   background-color: #81B4FC;
+   border-radius: 16px;
+   padding: 32px;
+  
+}
+.technology-two{
+  box-shadow: 0px 4px 4px 0px ;
+  background-color: #C6E4D6;
+  border-radius: 16px;
+  padding: 32px;
+ 
+}
+.technology-three{
+  box-shadow: 0px 4px 4px 0px ;
+  background-color: #F7EBCF;
+  border-radius: 16px;
+  padding: 32px;
+ 
+}
+.comment{
+  background-color: #FFFFFF;
+  padding: 48px 24px 48px 24px;
+  box-shadow: 0px 4px 4px 0px;
+  border-radius: 16px;
+  
+}
+.comment-description{
+  line-height: 24px;
+  
+
+}
+.comment-name{
+  line-height: 24px;
+
+}
+.name-title{
+  color: #000000;
+
 }
