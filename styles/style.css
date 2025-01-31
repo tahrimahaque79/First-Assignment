@@ -283,14 +283,56 @@ main section{
 }
 .comment-description{
   line-height: 24px;
+  margin-top: 60px;
+  
   
 
 }
 .comment-name{
   line-height: 24px;
+  margin-bottom: 10px;
 
 }
 .name-title{
   color: #000000;
+  margin-top: 10px;
 
+}
+
+/* Opinion table */
+.opinion-table{
+  background-color: #FFFFFF;
+  padding: 32px 32px;
+  box-shadow: 0px 4px 4px 0px;
+  fill: #FFFFFF;
+  border-radius: 16px;
+}
+
+table{
+  border-collapse: collapse;
+  height: 400px;
+  width: 1220px;
+}
+td, th{
+  padding: 24px 24px;
+  fill: #FFFFFF;
+  border: 1px solid #0E0E0E;
+}
+th{
+  text-align: left;
+}
+.table-row{
+  background-color: #C6E4D6;
+  fill: #C6E4D6;
+  padding: 24px 24px;
+  width: 1216px;
+  height: 72px;
+}
+.table-button{
+ background-color: #C6E4D6;
+ fill: #C6E4D6;
+  padding: 14px 10px;
+  border-radius: 4px;
+  width: 152px;
+  height: 44px;
 }
