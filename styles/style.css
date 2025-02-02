@@ -501,5 +501,6 @@ taka-green:hover{
 
 }
 .media{
+  text-align: center;
   display: flex;
 }
